@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovilXamarinUTN.ConsumeAPI.MainPage">
+
+    <StackLayout>
+        <Label>Id clasificación:</Label>
+        <Entry x:Name="txtId"></Entry>
+        <Label>Clasificación:</Label>
+        <Entry x:Name="txtClasificacion"></Entry>
+        <Button x:Name="cmdCreate" Text="INSERTAR" Clicked="cmdCreate_Clicked"></Button>
+        <Button x:Name="cmdRead" Text="LEER" Clicked="cmdRead_Clicked"></Button>
+        <Button x:Name="cmdUpdate" Text="ACTUALIZAR" Clicked="cmdUpdate_Clicked"></Button>
+        <Button x:Name="cmdDelete" Text="BORRAR" Clicked="cmdDelete_Clicked"></Button>
+
+
+        <Label>Id producto:</Label>
+        <Entry x:Name="txtIdProducto"></Entry>
+        <Label>Nombre producto:</Label>
+        <Entry x:Name="txtNombreProducto"></Entry>
+        <Label>Existencia:</Label>
+        <Entry x:Name="txtExistencia"></Entry>
+        <Label>Precio unitario:</Label>
+        <Entry x:Name="txtPrecioUnitario"></Entry>
+        <Label>IVA:</Label>
+        <Entry x:Name="txtIVA"></Entry>
+        <Label>iD Clasificaciòn:</Label>
+        <Entry x:Name="txtClasificacionId"></Entry>
+        
+        <Button x:Name="cmdCreateProd" Text="INSERTAR" Clicked="cmdCreateProd_Clicked"></Button>
+        <Button x:Name="cmdReadProd" Text="LEER" Clicked="cmdReadProd_Clicked"></Button>
+        <Button x:Name="cmdUpdateProd" Text="ACTUALIZAR" Clicked="cmdUpdateProd_Clicked"></Button>
+        <Button x:Name="cmdDeleteProd" Text="BORRAR" Clicked="cmdDeleteProd_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
